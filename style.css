@@ -30,6 +30,15 @@ html,body {
     font-size: 25px;
 }
 
+.row img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.row:hover img {
+	opacity: .7;
+}
+
 
 
 @media (max-width: 576px) {
@@ -63,4 +72,5 @@ html,body {
         font-family: 'Kosugi', sans-serif;
         font-size: 15px;
     }
+    
 }
